@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+		<link rel="stylesheet" href="bootstrap-3.3.7\dist\css\bootstrap.min.css">
+		<link href="bootstrap-3.3.7\dist\css\estilo.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--
+		-->
+
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script> -->
+		<script src="angular-1.5.8/angular.min.js"></script>
+		<script src="angular-1.5.8/angular-route.js"></script>
+		<script src="js/app.js"></script>
+		<!-- <script src="js/lib/angular.min.js"></script> -->
+		<!--<script src="js/lib/angular-route.min.js"></script>-->
+		<!--<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+		<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>-->
+		
+		<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--
+		-->
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/bootswatch.css" rel="stylesheet">
+		
+	</head>
+	<body>
+
+		<!--
+		-->
+		<!--<div class="container">-->
+			<div class="navbar navbar-fixed-top navbar-inverse">
+				<div class="navbar-inner">
+					<div class="container">
+						<a class="btn btn-navbar" data-toggle="collapse" data-target="#meuMenu">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<a class="brand" href="#/">Check-list Clientes</a>
+						<div class="collapse navbar-collapse" id="meuMenu">
+							<ul class="nav navbar-nav">
+								<li><a href="#/">Home</a></li>
+								<li><a href="#/editarCliente/0">Cadastrar</a></li>
+								<li><a href="#/listCliente">Buscar</a></li>
+							</ul>
+						</div>					
+					</div>
+				</div>
+			</div>
+		<!--</div>-->
+		<div class="container">
+			<div ng-view class="container">
+				
+			</div>
+		</div>
+	</body>
+</html>

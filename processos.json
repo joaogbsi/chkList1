@@ -1,0 +1,18 @@
+{
+	"qtdCadastro":"dfsd",
+	"selPessoaLanc":"N",
+	"pessoaLanc":"fsdf",
+	"selLancPreco":"N",
+	"lancPreco":"fsd",
+	"selRecebeMerc":"N",
+	"recebeMerc":"fsdf",
+	"selCompraVenda":"N",
+	"compraVenda":"sfdf",
+	"selFiscalCaixa":"N",
+	"fiscalVendas":"fsdf",
+	"FechamentoDiario":"N",
+	"selRespFechamento":"S",
+	"respFechamento":"fsdf",
+	"selRespFinanceiro":"S",
+	"respFinanceiro":"sfdf"
+}

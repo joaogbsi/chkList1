@@ -1,0 +1,44 @@
+{
+
+	"outraInf":{
+		"optCertDigital":"A1",
+		
+		"tInternet":"internetOutras",
+		"qualInternet":"teste",
+		
+		"selBuscaPreco":"S",
+		"qualBuscaPreco":"buscaPreco",
+		
+		"selImpEti":"S",
+		"qualImpEti":"impEti",
+		
+		"selTef":"S",
+		"qualTef":"tef",
+		"optAux":"moden",
+		
+		"optImpressora":"S",
+		
+		"optColetor":"S",
+		
+		"selLeitorMesa":"S",
+		"qualLeitorMesa":"mLeitorD",
+		"qtdLeitorMesa":"qtdLeitorD",
+		"chkLeitorMesaUsb":true,
+		
+		"selLeitorMao":"S",
+		"qualLeitorMao":"mlLeitorH",
+		"qtdLeitorMao":"mLeitorH",
+		"chkLeitorMaorUsb":true,
+		
+		"selPalm":"S",
+		"qualPalm":"mPalm",
+		"qtdPalm":"qPalm",
+		"soPalm":"SOPalm",
+		
+		"selSistema":"S",
+		"qualSistema":"qualSistema"
+	}
+	
+}
+
+

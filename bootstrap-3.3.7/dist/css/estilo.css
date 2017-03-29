@@ -1,0 +1,21 @@
+.well-sm{
+	text-align: center;
+
+}
+
+.tabel .table-bordered{
+	margin: 5px;
+}
+
+.btn-block{
+	margin-top: 5px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
