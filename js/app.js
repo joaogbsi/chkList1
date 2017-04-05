@@ -81,6 +81,7 @@ app.controller('controller', function($scope, $window, $http, $document,$locatio
 
 
 app.config(['$routeProvider', function($routeProvider, $scope, $rootScope){
+	
 	$routeProvider.
 	when('/', {
 		/*
